@@ -13,3 +13,8 @@ A place to include any other types of information that you'd like to include abo
 ### Contact me
 
 [email@domain.com](mailto:email@domain.com)
+
+<form accept-charset="UTF-8" action="{{ site.baseurl }}/thankyou" method="POST">
+  <input type="email" name="email" placeholder="Your Email">
+  <button type="submit">Submit</button>
+</form>
